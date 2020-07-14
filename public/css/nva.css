@@ -1,0 +1,15 @@
+body{
+  background-image: url("/img/CALN_bg.jpg");
+  background-repeat: repeat-x;
+  background-color: #FFFFFF;
+}
+.navbar {
+  border-radius: 0;
+  background: #E6E6E6;
+  }
+.navbar-brand {
+  width: 596px;
+  height: 120px;
+  background-image: url("/img/CALN_banner_1.jpg");
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,38 @@
+baseurl = "http://caln.eu/"
+title = " "
+languageCode = "zh-cn"
+paginate = "10" # Number of posts per page
+theme = "hugo_theme_beg"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author]
+	name = "Qingzhou Zhang"
+	bio = "A father. A computational biologist."
+[Params]
+	custom_css = ["css/nva.css"]
+    subtitle = "" # Subtitle of your site
+    description = "Official website of CALN"# Description of your site
+    opengraph = false
+    twitter_cards = false
+    readmore = false # Show "Read more" button in list if true
+    leftsidebar = false # Move sidebar to the left side if true
+    authorbox = true
+    post_navigation = true
+    postSections = ["post"]
+    summaryLength = 70
+
+[Params.widgets]
+    search = true # Enable "Search" widget
+    recent_articles = true # Enable "Recent arcticles" widget
+    categories = true # Enable "Categories" widget
+    tags = true # Enable "Tags" widget
+    tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于我们"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -110
